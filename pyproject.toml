@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pokename_generator"
+version = "0.1.0"
+description = ""
+authors = ["konumaru <konumaru1022@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.2"
+numpy = "^1.20.1"
+torch = "^1.7.1"
+tensorboard = "^2.4.1"
+
+[tool.poetry.dev-dependencies]
+pycodestyle = "^2.6.0"
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
