@@ -64,7 +64,7 @@ class NameGenerateTrainer:
 
         return text_input.long(), text_target.long()
 
-    def generate(self, initial_str="A", predict_char_len=100, temprature=0.85):
+    def generate(self, initial_str="ア", predict_char_len=100, temprature=0.85):
         hidden, cell = self.rnn.init_hidden(batch_size=self.batch_size)
         initial_input = self.char_tensor(initial_str)
         predicted = initial_str
@@ -128,7 +128,6 @@ class NameGenerateTrainer:
 
 def main():
     all_katakana = load_katakana()
-    all_characters = all_katakana + list(string.printable)
     all_names = load_pokemon_name()
 
     trainer = NameGenerateTrainer(all_characters=all_katakana, name_list=all_names)
