@@ -63,6 +63,7 @@ def main():
     initial_str = random.choice(all_katakana)
     gen_names = generator.generate(initial_str)
 
+    print("Genereated:")
     print(gen_names)
 
 

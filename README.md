@@ -5,9 +5,16 @@ description...
 ## Let's Generate Pokemon Name
 
 ```
-$ poetry run python generate.py --init_char ア
-Genereated: ????
+$ poetry run python generate.py
+Genereated:
+ジキン
+マイナ
+チャーレ
+ジキン
+メガボスゴド
 ```
+
+<img src="https://user-images.githubusercontent.com/17187586/109241944-938fed80-781d-11eb-8725-d38ef831b6a6.png" alt="sample_pokemon" style="width:500px">
 
 ## Dataset
 - Japanese Dataset
