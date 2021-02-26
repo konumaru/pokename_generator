@@ -9,6 +9,12 @@ $ poetry run python generate.py --init_char ア
 Genereated: ????
 ```
 
+## Dataset
+- Japanese Dataset
+  - https://rikapoke.com/pokemon_data8gen/
+- English Dataset
+  - https://www.kaggle.com/rounakbanik/pokemon
+
 
 ## Commands
 ### Train model
